@@ -1,0 +1,16 @@
+.affix {
+bottom: -20px;
+z-index: 9999 !important;
+}
+
+.affix_top {
+top:0px;
+}
+
+.affix + .container-fluid {
+padding-top: 70px;
+}
+
+.nospace {
+	font-size: 0;
+}
